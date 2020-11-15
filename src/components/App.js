@@ -22,6 +22,7 @@ const App = () => {
       <h1>Monsters Rolodex</h1>
       <SearchBox
         placeholder="Search Monsters"
+        searchText={searchText}
         handleTextChange={searchTextHandler}
       />
       <CardList monsters={filteredMonsters} />
